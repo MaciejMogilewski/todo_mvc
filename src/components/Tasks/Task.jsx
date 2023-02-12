@@ -16,7 +16,6 @@ function Task({handleContentEditable, task, handleDeleteTask, handleChangeStatus
             <span
                 className='taskName'
                 onBlur={(event) => handleContentEditable(event, task)}
-                contentEditable
             >
                 {name}
             </span>
